@@ -16,9 +16,9 @@ from Investar.TradingStrategy.TripleScreen import TripleScreen
 
 if __name__ == '__main__':
 
-    # print("START")
-    # dbu = DBUpdater()
-    # dbu.execute_daily()
+    print("START")
+    dbu = DBUpdater()
+    dbu.execute_daily()
 
     company = "현대자동차"
     start_date = '2018-06-01'
